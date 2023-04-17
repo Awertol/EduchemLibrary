@@ -1,34 +1,25 @@
-﻿using System.Reflection.Metadata.Ecma335;
-using System.Security.Cryptography;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Educhem
+namespace ClassLibrary1
 {
- 
-
     public static partial class OdbornaPriprava
     {
-        
-        public static string OrganizaceKabelu(string nazevKonektoru)
+        public static Dictionary<string, string> Kovy = new Dictionary<string, string>()
         {
-            string vysledek = "";
-            if (nazevKonektoru == "RJ11")
-                {
-                 vysledek = "KRBY";
-
-            }
-            else if (nazevKonektoru == "RJ12")
-            {
-                 vysledek = "UKRGYB";
-
-            }
-            else if (nazevKonektoru == "RJ45")
-            {
-                 vysledek = "NBOG";
-            }
-            return vysledek;
-        }
-        
-
+            {"Au", "19,3 g/cm³" },
+            {"Ag", "10,49 g/cm³" },
+            {"Cu", "8,96 g/cm³" },
+            {"Fe", "7,86 g/cm³" }
+        };
+        public static string ChemPrvek(string prvek)
+        {
+            return(Kovy.GetValueOrDefault(prvek) ?? "neplatná hodnota");
+        } 
     }
+
     
 }
