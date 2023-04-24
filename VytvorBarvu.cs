@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace Educhem1
+namespace Educhem
 {
     public static partial class Grafika
     { 
