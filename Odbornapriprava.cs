@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Educhem
 {
-    public static partial class Odbornapriprava
+    public static partial class OdbornaPriprava
     {
         public static string chemZkratka(string chemZkratka)
         {
