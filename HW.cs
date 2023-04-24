@@ -5,14 +5,24 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Educhem
+
 {
     public static partial class HW
     {
-        public static double Pomer (double sirka, double vyska, double fin)
+
+        
+        public static double Propocitej (double nabijeciproud, double kapacita)
         {
-            fin = sirka / vyska;
-            fin = Math.Round(fin, 2);
-            return fin;
+
+            return kapacita / (nabijeciproud * 1.4);
+
+           
+            
+            
         }
+        
+
+        
+         
     }
 }
