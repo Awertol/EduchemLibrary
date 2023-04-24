@@ -1,7 +1,5 @@
 ﻿namespace Educhem
 {
-    public class Predmet
-    {
         public static partial class Cestina
         {
             public static string Opravovac(string a)
@@ -12,5 +10,4 @@
                 return a;
             }
         }
-    }
 }
