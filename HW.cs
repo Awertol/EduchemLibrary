@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Educhem
 
 {
-    public static partial class HW
+    public static partial class Hardware
     {
 
         
