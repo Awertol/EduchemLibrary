@@ -5,7 +5,7 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace prvocislo
+namespace Educhem
 {
     public static partial class Matematika
     {
