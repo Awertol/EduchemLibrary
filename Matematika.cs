@@ -14,7 +14,7 @@ namespace Educhem
             int rNaDruhou = polomer * polomer;
             int vyska = 5;
             double vysledek = Math.PI * rNaDruhou * vyska;
-            return priklad();
+            return vysledek;
         }
     }
 }
